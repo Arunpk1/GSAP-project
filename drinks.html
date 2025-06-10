@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>summer Drink</title>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>  
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300..700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation">
+        <h1 class="logo">summer <span class="extra">Drink</span></h1>
+        <ul class="list">
+            <li>home</li>
+            <li>about us</li>
+            <li>profile</li>
+        
+            </ul>
+
+    </nav>
+    <div class="mainsection">
+        <p>Packed with the bright, tangy punch of fresh lemons, this summer drink is the ultimate refresher.<br>
+             Served icy cold, each sip bursts with citrusy goodness, instantly cooling you down and awakening your senses.<br>
+              It's the perfect way to savor summer in every zesty drop!</p>
+              <button>Shop now</button>
+    </div>
+    <img src="./fresh-tasty-mint-mojito-table.png" alt="lime" class="lime">
+    <div class="round">  </div>
+    <img src="./floating-sliced-lime-with-clear-background.png" alt="lime" class="lime2">
+    <script>
+    
+        document.addEventListener("DOMContentLoaded", (event) => {
+         gsap.from('.logo',{opacity:0,x:-20,duration:1});
+         gsap.from('.list',{opacity:0,x:20,duration:1});
+         gsap.from('.mainsection',{opacity:0,y:20,duration:1});
+         gsap.from('.lime',{opacity:0,y:100,duration:1});
+         gsap.from('.lime2',{opacity:0,y:100,duration:1});
+         
+        });
+       
+       </script>
+
+</body>
+</html>
